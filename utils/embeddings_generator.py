@@ -16,8 +16,8 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-STORIES_FOLDER = "stories"
-EMBEDDINGS_SAVE_PATH = "story_embeddings"
+STORIES_FOLDER = os.path.join(os.getcwd(), "stories")
+EMBEDDINGS_SAVE_PATH = os.path.join(os.getcwd(), "story_embeddings")
 EMBEDDING_MODEL = "google/embeddinggemma-300m"  
 HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 

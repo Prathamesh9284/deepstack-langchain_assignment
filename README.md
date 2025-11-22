@@ -11,8 +11,6 @@ A Python application that extracts structured character information from story t
   - Character summary
   - Relationships with other characters
   - Character type (protagonist/antagonist/side character)
-- **Structured Output**: Returns character details in a clean JSON format
-- **Edge Case Handling**: Gracefully handles cases where characters are not found
 
 ## Project Structure
 

@@ -6,7 +6,7 @@ SYSTEM_PROMPT = """
     1. name: The full name of the character.
     2. storyTitle: The title of the story where the character appears.
     3. summary: A brief summary of the character's role and significance in the story.
-    4. relations: A list of relationships the character has with other characters, including the type of relationship.
+    4. relations: A list of relationships the character has with other characters, including the type of relationship in one word.
     5. characterType: The type of character (e.g., protagonist).
 
     Rules:

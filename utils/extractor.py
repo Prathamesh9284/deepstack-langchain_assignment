@@ -21,7 +21,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-EMBEDDINGS_SAVE_PATH = "story_embeddings"
+EMBEDDINGS_SAVE_PATH = os.path.join(os.getcwd(), "story_embeddings")
 MISTRAL_API_KEY = os.getenv("MISTRAL_KEY")
 HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 
