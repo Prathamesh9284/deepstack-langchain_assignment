@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-huggingface
+langchain_mistralai
+sentence-transformers
+transformers
+faiss-cpu
+torch
+numpy
+huggingface-hub
